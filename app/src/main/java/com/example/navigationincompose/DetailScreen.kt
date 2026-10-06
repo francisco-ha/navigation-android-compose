@@ -29,7 +29,7 @@ fun DetailScreen(name: String, navigateToBack:() -> Unit) {
             Text(text = "Navegar a ajustes")
         }
         Spacer(modifier = Modifier.weight(1f))
-        Button(onClick = {/*navigateToBack()*/}) {
+        Button(onClick = {navigateToBack()}) {
             Text(text = "Logout")
         }
         Spacer(modifier = Modifier.weight(1f))
